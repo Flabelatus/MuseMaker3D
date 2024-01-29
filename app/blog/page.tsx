@@ -1,15 +1,18 @@
-export default function Portfolio() {
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Blog() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             <div className="row mt-5 p-20 justify-content-center">
                 <div className="col-md-8 offset-md-3">
                     <h1>
-                        Portfolio Page
+                        Blog Page
                     </h1>
                     <p className="mt-5">
-                        All the cool projects will be here soon!
+                        We would post blogs here soon!
                     </p>
-
+                    
                 </div>
             </div>
 

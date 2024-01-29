@@ -1,0 +1,32 @@
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #3300ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: larger;
+  }
+  
+  .button:hover {
+    background-color: #220088;
+    color: white;
+  }
+
+
+h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+}
+  
