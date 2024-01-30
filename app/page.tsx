@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
+import Services from "./services/page";
 
 
 export default function Home() {
@@ -33,41 +34,104 @@ export default function Home() {
         </div>
       </div>
 
-      {/* SERVICES */}
-      <div className=" justify-content-center  " style={{ backgroundColor: '#dfe', width: '100vw' }}>
-        <div className="mb-32 grid text-center lg:max-w-8xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-center ">
+      {/* TEXT */}
+      <div className=" justify-content-center row mb-5 py-5 container-fluid" style={{ backgroundColor: '#FFF', width: '100vw' }}>
+        <div className="row justify-content-start px-5">
+          <div className="col-md-5 offset-md-6">
+            <h1 className="text-start mb-5 mt-3 py-2" style={{ color: '#000000CC', width: 'fit-content', height: 'fit-content' }}>3D solutions for every vision</h1>
+            <p className="text-start">Our wide range of services allows us to craft a tailored solution for each and every client. In need of a straightforward 3D scan or print? We got you covered.
+              But that’s not all we do. Our expertise lies in transforming your vision into reality, regardless of the stage you're at in the process. We can assist in the
+              entire product development journey, including concept development, building physical prototypes and developing minimum viable products (MVPs). So if you're still
+              exploring possibilities or have a crystal-clear vision in mind, our creative team is ready to support you every step of the way.
 
-          <Link
-            href='/design'
-            style={{ backgroundColor: '#fff' }}
-            className="me-2 rounded-lg px-4 py-5"
-          >
-            <div style={{ width: 150, height: 120 }}>
-              <Image
-                className="relative"
-                src="/landing/design.png"
-                alt="Hero Image"
-                width={130}
-                height={60}
-                priority
-              />
-            </div>
-
-            <div className="flex flex-col justify-end">
-              <h2 className={`mb-3 text-2xl font-semibold btn`}>
-                Design Service{" "}
-              </h2>
-              <p className={`m-0 max-w-[30ch] text-sm opacity-50 `}>
-                We capture precise dimensions and intricate details using structured light technology,
-                resulting in accurate models for applications such as quality control, prototyping,
-                reverse engineering and many more.
-              </p>
-            </div>
-          </Link>
-
+              It all starts with a first conversation. Get in touch or let us call you, so we can discuss your project and set the next steps.</p>
+          </div>
         </div>
       </div>
 
+      <Services></Services>
+      {/* SERVICES
+      <div className=" justify-content-center row mb-5 py-5 container-fluid" style={{ backgroundColor: '#2200FF', width: '100vw' }}>
+        <div className="row justify-content-center">
+          <h1 className="text-center mb-5 mt-3 py-2 px-3" style={{ color: '#000000CC', backgroundColor: 'white', width: 'fit-content', height: 'fit-content', borderRadius: 16 }}>Our Services</h1>
+        </div>
+
+        <div className="col-md-3 mb-3 text-center">
+          <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+            <div style={{ height: 60 }}>
+              <Link href="/design">
+                <Image
+                  src="/landing/design.png"
+                  alt="Design Service Logo"
+                  width={160}
+                  height={50}
+                  style={{ display: 'block', margin: 'auto' }}
+                />
+              </Link>
+            </div>
+            <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>Product Design Development</Link>
+            <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
+              techniques to provide you highly realistic and accurate representations of your product or idea.</p>
+          </div>
+        </div>
+
+        <div className="col-md-3 mb-3 text-center">
+          <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+            <div style={{ height: 60 }}>
+              <Link href="/3d-scanning">
+                <Image
+                  src="/landing/scan.png"
+                  alt="3D Scan Service Logo"
+                  width={80}
+                  height={50}
+                  style={{ display: 'block', margin: 'auto' }}
+                />
+              </Link>
+            </div>
+            <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>3D Scanning Service</Link>
+            <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>We capture precise dimensions and intricate details using structured light technology, resulting in accurate models for applications
+              such as quality control, prototyping, reverse engineering and many more.</p>
+          </div>
+        </div>
+
+        <div className="col-md-3 mb-3 text-center">
+          <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+            <div style={{ height: 60 }}>
+              <Link href="/3d-printing">
+                <Image
+                  src="/landing/print.png"
+                  alt="3D Print Logo"
+                  width={80}
+                  height={50}
+                  style={{ display: 'block', margin: 'auto' }}
+                />
+              </Link>
+            </div>
+            <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>Large Scale 3D Printing</Link>
+            <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>With our large scale 3D printers we deliver high-quality parts and models such as prototypes, manufacturing moulds or statues,
+              from small parts to large objects up to 1.7 m tall and for all industries.</p>
+          </div>
+        </div>
+
+        <div className="col-md-3 mb-3 text-center">
+          <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+            <div style={{ height: 60 }}>
+              <Link href="/3d-modelling">
+                <Image
+                  src="/landing/model.png"
+                  alt="3D Modelling Service Logo"
+                  width={100}
+                  height={50}
+                  style={{ display: 'block', margin: 'auto' }}
+                />
+              </Link>
+            </div>
+            <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>3D Modelling & Modification</Link>
+            <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
+              techniques to provide you highly realistic and accurate representations of your product or idea.</p>
+          </div>
+        </div>
+      </div> */}
     </main>
   );
 }

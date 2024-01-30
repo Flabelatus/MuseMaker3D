@@ -1,11 +1,22 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Design() {
+    const router = useRouter();
+    const handleGoBack = () => {
+        router.back();
+    };
+
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             <div className="row mt-5 p-20">
                 <div className="col-md-6 offset-md-1">
+                    <button onClick={handleGoBack} className="btn button-1 mb-5" style={{ width: 'fit-content' }}>
+                        Back
+                    </button>
                     <h1>
                         Product Design Development
                     </h1>
@@ -33,7 +44,7 @@ export default function Design() {
 
 
             <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-                
+
             </div>
         </main>
     )

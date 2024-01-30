@@ -1,11 +1,23 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function threeDScanning() {
+    const router = useRouter();
+
+    const handleGoBack = () => {
+        router.back();
+    };
+
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             <div className="row mt-5 p-20">
                 <div className="col-md-6 offset-md-1">
+                <button onClick={handleGoBack} className="btn button-1 mb-5" style={{ width: 'fit-content' }}>
+                    Back
+                </button>
                     <h1>
                         3D Scanning Services
                     </h1>
@@ -36,5 +48,5 @@ export default function threeDScanning() {
 
             </div>
         </main>
-    )
+    );
 }
