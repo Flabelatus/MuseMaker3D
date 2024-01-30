@@ -11,7 +11,7 @@ export default function Services() {
                 </div>
 
                 <div className="col-md-3 mb-3 text-center">
-                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 500 }}>
                         <div style={{ height: 60 }}>
                             <Link href="/design">
                                 <Image
@@ -24,14 +24,14 @@ export default function Services() {
                                 />
                             </Link>
                         </div>
-                        <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>Product Design Development</Link>
+                        <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>Product Design Development</Link>
                         <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
                             techniques to provide you highly realistic and accurate representations of your product or idea.</p>
                     </div>
                 </div>
 
                 <div className="col-md-3 mb-3 text-center">
-                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 500 }}>
                         <div style={{ height: 60 }}>
                             <Link href="/3d-scanning">
                                 <Image
@@ -44,14 +44,14 @@ export default function Services() {
                                 />
                             </Link>
                         </div>
-                        <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>3D Scanning Service</Link>
+                        <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>3D Scanning Service</Link>
                         <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>We capture precise dimensions and intricate details using structured light technology, resulting in accurate models for applications
                             such as quality control, prototyping, reverse engineering and many more.</p>
                     </div>
                 </div>
 
                 <div className="col-md-3 mb-3 text-center">
-                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 500 }}>
                         <div style={{ height: 60 }}>
                             <Link href="/3d-printing">
                                 <Image
@@ -64,14 +64,14 @@ export default function Services() {
                                 />
                             </Link>
                         </div>
-                        <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>Large Scale 3D Printing</Link>
+                        <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>Large Scale 3D Printing</Link>
                         <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>With our large scale 3D printers we deliver high-quality parts and models such as prototypes, manufacturing moulds or statues,
                             from small parts to large objects up to 1.7 m tall and for all industries.</p>
                     </div>
                 </div>
 
                 <div className="col-md-3 mb-3 text-center">
-                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 450 }}>
+                    <div className="container-fluid px-3 py-5" style={{ backgroundColor: 'white', borderRadius: 16, height: 'fit-content', minHeight: 500 }}>
                         <div style={{ height: 60 }}>
                             <Link href="/3d-modelling">
                                 <Image
@@ -84,7 +84,7 @@ export default function Services() {
                                 />
                             </Link>
                         </div>
-                        <Link href="/design" className="btn mt-5" style={{ fontSize: 18, fontWeight: 800 }}>3D Modelling & Modification</Link>
+                        <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>3D Modelling & Modification</Link>
                         <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
                             techniques to provide you highly realistic and accurate representations of your product or idea.</p>
                     </div>
