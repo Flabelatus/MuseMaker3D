@@ -25,8 +25,9 @@ export default function Services() {
                             </Link>
                         </div>
                         <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>Product Design Development</Link>
-                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
+                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15, minHeight: 150 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
                             techniques to provide you highly realistic and accurate representations of your product or idea.</p>
+                        <Link href='/design' className="btn button-1">Learn more</Link>
                     </div>
                 </div>
 
@@ -45,8 +46,9 @@ export default function Services() {
                             </Link>
                         </div>
                         <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>3D Scanning Service</Link>
-                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>We capture precise dimensions and intricate details using structured light technology, resulting in accurate models for applications
+                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15, minHeight: 150 }}>We capture precise dimensions and intricate details using structured light technology, resulting in accurate models for applications
                             such as quality control, prototyping, reverse engineering and many more.</p>
+                        <Link href='/3d-scanning' className="btn button-1">Learn more</Link>
                     </div>
                 </div>
 
@@ -65,8 +67,9 @@ export default function Services() {
                             </Link>
                         </div>
                         <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>Large Scale 3D Printing</Link>
-                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>With our large scale 3D printers we deliver high-quality parts and models such as prototypes, manufacturing moulds or statues,
+                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15, minHeight: 150 }}>With our large scale 3D printers we deliver high-quality parts and models such as prototypes, manufacturing moulds or statues,
                             from small parts to large objects up to 1.7 m tall and for all industries.</p>
+                        <Link href='/3d-printing' className="btn button-1">Learn more</Link>
                     </div>
                 </div>
 
@@ -85,8 +88,9 @@ export default function Services() {
                             </Link>
                         </div>
                         <Link href="/design" className="btn mt-5" style={{ fontSize: 30, fontWeight: 800 }}>3D Modelling & Modification</Link>
-                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
+                        <p className="mt-4" style={{ fontWeight: 400, fontSize: 15, minHeight: 150 }}>It doesn’t matter if you’re in the concept phase or ready to start production, we’re specialized in various 3D modeling
                             techniques to provide you highly realistic and accurate representations of your product or idea.</p>
+                        <Link href='/3d-modelling' className="btn button-1">Learn more</Link>
                     </div>
                 </div>
             </div >

@@ -6,7 +6,7 @@ import Services from "./services/page";
 import Clients from "./clients/page";
 import WhyChooseUs from "./why/page";
 import About from "./about/page";
-
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -55,8 +55,10 @@ export default function Home() {
       </div>
 
       <Services></Services>
+      <br /><br />
       <WhyChooseUs />
-      <About />
+      <br />
+      {/* <About /> */}
 
       {/* Let us call you */}
       <div className="row px-3 justify-content-center mb-5 py-4" style={{ width: 'fit-content', boxShadow: '1px 1px 10px #ddd', borderRadius: 16, maxWidth: '80vw' }}>
