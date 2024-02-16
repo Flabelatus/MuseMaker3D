@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import Services from "./services/page";
 import Clients from "./clients/page";
+import WhyChooseUs from "./why/page";
+import About from "./about/page";
 
 
 export default function Home() {
@@ -53,7 +55,43 @@ export default function Home() {
       </div>
 
       <Services></Services>
- 
+      <WhyChooseUs />
+      <About />
+
+      {/* Let us call you */}
+      <div className="row px-3 justify-content-center mb-5 py-4" style={{ width: 'fit-content', boxShadow: '1px 1px 10px #ddd', borderRadius: 16, maxWidth: '80vw' }}>
+        <div>
+          <h1 className="text-start mb-4 mt-3 ms-5 py-2" style={{ color: '#000000CC', width: 'fit-content', height: 'fit-content' }}>Let us call you</h1>
+        </div>
+        <div className="col-md-5 mt-4 px-5">
+          <p>Just leave your name and number and we’ll call you for a free phone consultation</p>
+        </div>
+        <div className="col-md-3 mt-2">
+          <label className="form-label input-text-transition" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
+            Name
+          </label>
+          <input
+            style={{ color: "#00224C", border: "0px solid #00000060", borderRadius: 8, height: 40, fontSize: 15, width: 250, paddingLeft: 10, paddingRight: 10, backgroundColor: "#F1F1F1" }}
+            type="text"
+            className=""
+            placeholder="John Doe"
+            id="name"
+          />
+        </div>
+        <div className="col-md-4 mt-2">
+          <label className="form-label input-text-transition" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
+            Phone number
+          </label>
+          <input
+            style={{ color: "#00224C", border: "0px solid #00000060", borderRadius: 8, height: 40, fontSize: 15, width: 250, paddingLeft: 10, paddingRight: 10, backgroundColor: "#F1F1F1" }}
+            type="text"
+            className=""
+            placeholder="+3161234567"
+            id="phone"
+          />
+        </div>
+        <button className="btn button-1 mt-3 px-5" style={{ width: 'fit-content' }}>Submit</button>
+      </div>
     </main>
   );
 }
