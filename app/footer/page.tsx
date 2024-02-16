@@ -21,7 +21,7 @@ export default function Footer() {
             message: msg
         });
     };
-    
+
     return (
         <div>
             <div className="row justify-content-center px-5" style={{ backgroundColor: '#fff', height: 'fit-content', width: '100vw' }}>
@@ -65,7 +65,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="row justify-content-center px-3" style={{ height: 'fit-content' }}>
-                <h2 className="text-center mb-4">Get in touch</h2>
+                <h1 className="text-center mb-4">Get in touch</h1>
                 <form onSubmit={handleSubmitForm} className="text-right px-5 py-5" style={{ width: 'fit-content' }}>
                     <label className="form-label input-text-transition me-4" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
                         Name

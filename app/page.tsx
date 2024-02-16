@@ -55,7 +55,7 @@ export default function Home() {
       </div>
 
       <Services></Services>
-      <br /><br />
+      {/* <br /><br /> */}
       <WhyChooseUs />
       <br />
       {/* <About /> */}
@@ -94,6 +94,7 @@ export default function Home() {
         </div>
         <button className="btn button-1 mt-3 px-5" style={{ width: 'fit-content' }}>Submit</button>
       </div>
+      <br /><br />
     </main>
   );
 }
