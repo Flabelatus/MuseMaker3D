@@ -103,19 +103,27 @@ export default function Footer() {
                         onChange={(e) => setSubject(e.target.value)}
                     />
                     <br />
-                    <label className="form-label input-text-transition me-4" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
+                    <label className="form-label text-left input-text-transition me-4" style={{ fontSize: 18, color: "#00000090", fontWeight: 400, verticalAlign: 'top' }}>
                         Message
                     </label>
-                    <input
-                        style={{ color: "#00224C", border: "0px solid #00000060", borderRadius: 8, height: 140, fontSize: 15, width: 350, paddingLeft: 10, paddingRight: 10, backgroundColor: "#F1F1F1" }}
-                        type="text"
-                        className="mb-4"
+                    <textarea
+                        style={{
+                            color: "#00224C",
+                            borderRadius: 8,
+                            minHeight: 140, // Set minimum height for the textarea
+                            fontSize: 15,
+                            width: 350,
+                            padding: '10px', // Combined padding property
+                            backgroundColor: "#F1F1F1",
+                            resize: 'vertical', // Allow vertical resizing
+                            alignItems: 'flex-start' // Ensure text starts from the top
+                        }}
                         placeholder="Message"
                         id="message"
                         onChange={(e) => setMsg(e.target.value)}
                     />
                     <br />
-                    <button value="Submit" className="btn button">Submit</button>
+                    <button value="Submit" className="btn button mt-3">Submit</button>
                 </form>
                 <hr />
                 <div className="row justify-content-center px-3 py-4" style={{ height: 'fit-content' }}>

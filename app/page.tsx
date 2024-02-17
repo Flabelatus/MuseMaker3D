@@ -5,8 +5,6 @@ import './styles.css';
 import Services from "./services/page";
 import Clients from "./clients/page";
 import WhyChooseUs from "./why/page";
-import About from "./about/page";
-import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -72,6 +70,7 @@ export default function Home() {
           <label className="form-label input-text-transition" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
             Name
           </label>
+          <br />
           <input
             style={{ color: "#00224C", border: "0px solid #00000060", borderRadius: 8, height: 40, fontSize: 15, width: 250, paddingLeft: 10, paddingRight: 10, backgroundColor: "#F1F1F1" }}
             type="text"
@@ -84,6 +83,7 @@ export default function Home() {
           <label className="form-label input-text-transition" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
             Phone number
           </label>
+          <br />
           <input
             style={{ color: "#00224C", border: "0px solid #00000060", borderRadius: 8, height: 40, fontSize: 15, width: 250, paddingLeft: 10, paddingRight: 10, backgroundColor: "#F1F1F1" }}
             type="text"

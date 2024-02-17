@@ -12,8 +12,8 @@ export default function WhyChooseUs() {
                 <h1 className="text-center mb-5 mt-3 py-2 px-3" style={{ color: '#000000CC', width: 'fit-content', height: 'fit-content', borderRadius: 16 }}>Why Choose Mega Maker 3D?</h1>
             </div>
 
-            <div className="col-md-3 mb-3 text-start">
-                <div className="container-fluid px-3" style={{ borderRadius: 16, height: 'fit-content' }}>
+            <div className="col-md-3 mb-3 text-center mt-5">
+                <div className="container-fluid px-3 row justify-content-center" style={{ borderRadius: 16, height: 'fit-content' }}>
                     <Image
                         src={Reliable}
                         alt="Reliable quality"
@@ -26,8 +26,8 @@ export default function WhyChooseUs() {
                 </div>
             </div>
 
-            <div className="col-md-3 mb-3 text-start">
-                <div className="container-fluid px-3" style={{ borderRadius: 16, height: 'fit-content' }}>
+            <div className="col-md-3 mb-3 text-center mt-5">
+                <div className="container-fluid px-3 row justify-content-center" style={{ borderRadius: 16, height: 'fit-content' }}>
                     <Image
                         src={Tailored}
                         alt="Tailored solution"
@@ -40,8 +40,8 @@ export default function WhyChooseUs() {
                 </div>
             </div>
 
-            <div className="col-md-3 mb-3 text-start">
-                <div className="container-fluid px-3" style={{ borderRadius: 16, height: 'fit-content' }}>
+            <div className="col-md-3 mb-3 text-center mt-5">
+                <div className="container-fluid px-3 row justify-content-center" style={{ borderRadius: 16, height: 'fit-content' }}>
                     <Image
                         src={Personal}
                         alt="Personal approach"
@@ -54,8 +54,8 @@ export default function WhyChooseUs() {
                 </div>
             </div>
 
-            <div className="col-md-3 mb-3 text-start">
-                <div className="container-fluid px-3" style={{ borderRadius: 16, height: 'fit-content' }}>
+            <div className="col-md-3 mb-3 text-center mt-5">
+                <div className="container-fluid px-3 row justify-content-center" style={{ borderRadius: 16, height: 'fit-content' }}>
                     <Image
                         src={TimeEfficient}
                         alt="Time and cost efficient"
