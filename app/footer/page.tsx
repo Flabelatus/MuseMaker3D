@@ -5,6 +5,7 @@ import FacebookIcon from "./../../public/socials/fb.png"
 import InstagramIcon from "./../../public/socials/ig.png"
 import YouTubeIcon from "./../../public/socials/yt.png"
 import { FormEvent, useState } from "react";
+import Logo from "./../../public/logo2.png";
 
 export default function Footer() {
     const [name, setName] = useState("");
@@ -28,10 +29,13 @@ export default function Footer() {
                 <hr />
                 <div className="col-md-4 mt-5">
                     <h5 className="text-center mb-4" style={{ color: "#333" }}>Contact info</h5>
-                    <p className="text-center" style={{ color: "#333", fontSize: 16, fontWeight: 400 }}>Email: info@javidjooshesh.com</p>
+                    <p className="text-center" style={{ color: "#333", fontSize: 16, fontWeight: 400 }}>Email: info@musemaker3d.com</p>
                     <p className="text-center" style={{ color: "#333", fontSize: 16, fontWeight: 400 }}>Post Address: Schermlaan 35, 3021KH<br />
                         Rotterdam, The Netherlands</p>
-                    <p className="text-center" style={{ color: "#333", fontSize: 20, fontWeight: 400 }}>Mega Maker 3D</p>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <p className="text-center me-3 mt-3" style={{ color: "#333", fontSize: 20, fontWeight: 600 }}>MuseMaker 3D</p>
+                        <Image src={Logo} style={{ width: 70 }} className="text-center" alt="MuseMaker 3D Logo" />
+                    </div>
 
                 </div>
                 <div className="col-md-4 mt-5">
@@ -65,7 +69,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="row justify-content-center px-3" style={{ height: 'fit-content' }}>
-                <h1 className="text-center mb-4">Get in touch</h1>
+                <h2 className="text-center">Contact</h2>
                 <form onSubmit={handleSubmitForm} className="text-right px-5 py-5" style={{ width: 'fit-content' }}>
                     <label className="form-label input-text-transition me-4" style={{ fontSize: 18, color: "#00000090", fontWeight: 400 }}>
                         Name
@@ -127,7 +131,7 @@ export default function Footer() {
                 </form>
                 <hr />
                 <div className="row justify-content-center px-3 py-4" style={{ height: 'fit-content' }}>
-                    <p className="text-center" style={{ fontSize: 16, fontWeight: 300, color: "#555" }}>Copyright 2024 © Mega Maker 3D <br></br> All rights reserved</p>
+                    <p className="text-center" style={{ fontSize: 16, fontWeight: 300, color: "#555" }}>Copyright 2024 © MuseMaker 3D <br></br> All rights reserved</p>
                 </div>
             </div>
         </div>

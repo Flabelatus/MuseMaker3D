@@ -4,8 +4,7 @@ import Link from "next/link";
 export default function Services() {
     return (
         <main>
-            < div className=" justify-content-center row py-5 container-fluid" style={{ backgroundColor: '#2200FF', width: '100vw' }
-            }>
+            < div className=" justify-content-center row py-5 container-fluid" style={{ backgroundColor: '#2200FF', width: '100vw', paddingLeft: 80, paddingRight: 80 }}>
                 <div className="row justify-content-center">
                     <h1 className="text-center mb-5 mt-3 py-2 px-3" style={{ color: '#000000CC', backgroundColor: 'white', width: 'fit-content', height: 'fit-content', borderRadius: 16 }}>Our Services</h1>
                 </div>

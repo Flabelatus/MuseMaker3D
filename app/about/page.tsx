@@ -20,7 +20,7 @@ export default function About() {
                         </div>
                         <div className='col-md-6'>
                             <h1 className='py-5'>
-                                About Mega Maker 3D
+                                About MuseMaker 3D
                             </h1>
                             <p className="" style={{ fontWeight: 300 }}>
                                 Our journey began with a personal interest in the vast world of 3D technology.

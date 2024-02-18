@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "./footer/page";
+import Logo from "./../public/logo2.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,7 @@ interface RootLayoutProps {
 };
 
 export const metadata: Metadata = {
-  title: "Mega Maker 3D",
+  title: "MuseMaker 3D",
   description: "Website for specialized 3d services",
 };
 
@@ -32,9 +33,9 @@ export default function RootLayout({ children, showFooter = true }: RootLayoutPr
                 >
                   {" "}
                   <Image
-                    src="/logo.png"
+                    src={Logo}
                     alt="Vercel Logo"
-                    width={100}
+                    width={70}
                     height={24}
                     priority
                   />
@@ -49,9 +50,7 @@ export default function RootLayout({ children, showFooter = true }: RootLayoutPr
               <Link href='/blog' className="fixed btn left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                 Blog&nbsp;
               </Link>
-              <Link href='/contact' className="fixed btn left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-                Contact&nbsp;
-              </Link>
+              
               <Link href='/about' className="fixed btn left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                 About&nbsp;
               </Link>
